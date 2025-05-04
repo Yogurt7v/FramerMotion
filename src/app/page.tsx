@@ -1,4 +1,10 @@
-import { Content } from './components/content';
+import { Component2 } from './components/component2';
+// import { Content } from './components/content';
 export default function Home() {
-  return <Content />;
+  return (
+    <>
+      {/* <Content /> */}
+      <Component2 />
+    </>
+  );
 }
